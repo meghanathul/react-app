@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const App = () => {
-//   return (
-//     <div>
-      
-//       App
-
-//     </div>
-//   )
-// }
-
-// export default App
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom'
 import Header from './Routing/Header.js'
@@ -41,7 +28,7 @@ const App = () => {
                 <Route path='laptop' element={<LaptopList/>} /> 
                 </Route> 
                 <Route path='/detail' element={<Detail/>}/>
-                 
+                <Route path='/product' element={<Product/>}/>
                 {/* Before Nesting */}
 
                 {/* <Route path='/product/laptop' element={<LaptopList/>} />   */}

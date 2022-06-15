@@ -1,0 +1,42 @@
+
+.tweet {
+    border: 1px solid #ccc;
+    width: 564px;
+    min-height: 68px;
+    padding: 10px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 18px;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.name {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-right: 0.3em;
+}
+.handle {
+    color: rgb(3, 65, 119);
+    font-size: 13px;
+}
+.time {
+    padding-left: 0.3em;
+    color: blueviolet;
+}
+.time::before {
+    content: '\00b7';
+    padding-right: 0.3em;
+}
+.buttons {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 1.4em;
+    color: aqua;
+} 
+.buttons i {
+    width: 80px;
+}
